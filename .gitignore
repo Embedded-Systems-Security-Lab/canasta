@@ -48,3 +48,5 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Add virtual environment
+canasta_env/
