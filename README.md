@@ -1,6 +1,6 @@
-#CANASTA: Controller Area Network Authentication Schedulability Timing Analysis
+# CANASTA: Controller Area Network Authentication Schedulability Timing Analysis
 
-##How to run code
+## How to run code
 
 * The simulation contains 3 sections for CAN with no MAC, MAC and periodic MAC
     * Each section has sub-folder for CAN, CAN FD, CAN XL
