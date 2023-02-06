@@ -4,9 +4,9 @@
 
 * The simulation contains 3 sections for CAN with no MAC, MAC and periodic MAC
     * Each section has sub-folder for CAN, CAN FD, CAN XL
-        * Run the example file in the each sub-folder 
+        * Run the example file in the each sub-folder to output response time
     
-> Create your own module following the example to output the response time
+> Create your own module following the example to output the response time for a message set
           
 
 
