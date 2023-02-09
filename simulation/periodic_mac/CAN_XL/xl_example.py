@@ -1,6 +1,6 @@
 import random
 import math
-from libs.can_pmac_res import pmac_result
+from libs.can_pmac_module import pmac_result
 
 def generate_data():
     dtbit = 1/10000

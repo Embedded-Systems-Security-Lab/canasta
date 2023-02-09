@@ -4,7 +4,6 @@ import math
 from libs.can_nomac_module import can_result
 
 
-
 def generate_data():
     priority = []
     period=[]

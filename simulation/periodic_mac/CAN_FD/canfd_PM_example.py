@@ -17,14 +17,14 @@ def read_file():
 
     
     CURRENT_DIR = os.path.dirname(__file__)
-    file_path = os.path.join(CURRENT_DIR,'file_test.csv')
+    file_path = os.path.join(CURRENT_DIR,'cfdtest.csv')
     with open(file_path,'r') as dataset:
         reader = csv.reader(dataset)
         next(reader)
         for row in reader:
-            period.append(int(row[2]))
-            priority.append(int((row[0]),16))
-            size.append(int(row[1]))
+            period.append(int(row[1]))
+            priority.append(int(row[0]))
+            size.append(int(row[2]))
     
     DLC = [can_fd_data(i) for i in size]
     for i in range(len(DLC)):

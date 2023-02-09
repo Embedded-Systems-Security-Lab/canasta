@@ -10,7 +10,7 @@ def generate_data(bus_speed,data_size):
     TX = []
     tbit = 1/bus_speed
     DLC = [random.randint(1, 8) for i in range (data_size)]
-    print(DLC)
+
     priority = [i+1 for i in range (data_size)]
     period_set = [5,10,100,1000,5000] #user can change period set
     period= sorted([random.choice(period_set) for i in range(data_size)])
